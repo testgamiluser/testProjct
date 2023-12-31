@@ -8,7 +8,7 @@ const app =express()
 
 app.get('/',(req,res)=>{
     res.send(`
-    <h1>pay Rs 1 </h1>
+    <h1>Pay Rs 1 </h1>
     <a href="http://localhost:4000/payment/pay/10">click here to pay</a>
     `)
 })
